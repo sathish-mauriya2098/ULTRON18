@@ -1,0 +1,25 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+ }
+ .input-field input[type=text]:focus + label {
+      color: #18a7e9 !important;
+    }
+    .input-field input:focus {
+      border-bottom: 1px solid #18a7e9 !important;
+      box-shadow: 0 1px 0 0 #18a7e9 !important;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+        
+        color: #2e8aa0 !important;
+        
+    }
+    h2 {
+        display: block !important;
+        font-size: 1.5em !important;
+        -webkit-margin-before: 0.83em !important;
+        -webkit-margin-after: 0.83em !important;
+        -webkit-margin-start: 0px !important;
+        -webkit-margin-end: 0px !important;
+        font-weight: bold !important;
+        color: #18a7e9 !important;
+    }
